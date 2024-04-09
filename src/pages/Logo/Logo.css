@@ -1,0 +1,32 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container-logopage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgba(112, 5, 158, 1) 0%, rgba(191, 126, 218, 1) 48%, rgba(248, 128, 128, 1) 100%);
+
+}
+.logo-container {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    transform: translate(50%, 0);
+
+}
+
+.logo-video {
+    width: 80%;
+    /* Adjust the width to make the logo larger */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    
+}

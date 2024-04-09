@@ -1,0 +1,30 @@
+/* Increase the size of the arrow icons */
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px;
+    /* Adjust the font size of the arrow icons */
+}
+/* Assuming your slick slider arrows have the class name 'slick-prev' and 'slick-next' */
+
+
+/* Move the arrows to the left and right respectively */
+
+
+/* Optionally, you can adjust the vertical position of the arrows */
+.slick-prev,
+.slick-next {
+    top: 50%;
+    /* Align arrows vertically at the center */
+    transform: translateY(-50%);
+    /* Center vertically */
+}
+
+.slick-prev {
+    left: -50px;
+    /* Adjust this value as needed */
+}
+
+.slick-next {
+    right: -30px;
+    /* Adjust this value as needed */
+}
