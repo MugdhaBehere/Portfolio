@@ -15,5 +15,5 @@ export const plugins = [
   },
 
   'gatsby-plugin-image',
-
+  'gatsby-plugin-netlify',
 ];
