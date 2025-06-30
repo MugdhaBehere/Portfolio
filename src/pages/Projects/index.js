@@ -19,6 +19,24 @@ const Projects = () => {
     Url: "https://github.com/MugdhaBehere/cash_craft",
   },
   {
+    Title: "Vocabulum",
+    ProjectDescription: `This is an all-languages-to-all-languages dictionary that takes as input the search query along with the source and target language and displays the query and its meaning in the source language, English, and target language. It uses external APIs for translation and meaning search. It also employs an LRU cache and Elastic Search DB for faster retrieval and reduction of latency and API calls. This project is still in progress.
+(Independent Project, Tech Stack: Java, Spring, Spring Boot, React, JavaScript, Twinword Dictionary API,
+Google Translate API, LRU Cache, Elastic Search DB )`,
+    Category: "Software Engineering",
+
+    ScreenshotCollection: [
+      { Url: Vocabulum }
+
+    ]
+  },
+  {
+    Title: "Jet Reader",
+    ProjectDescription: "This is an app that allows readers to read books at customized reading speeds. It accepts as input a pdf file/ text, which could be a book the user wants to read, this file is parsed and the content from the file is fetched sentence by sentence or paragraph by paragraph. This content is then displayed on the screen in the form of a stream of words that goes through the screen from right to left at a rate of specific words per minute as chosen by the user. To further aid the process of speed reading, the first few letters of each word are displayed in bold, so that the user can guess what the word is without reading the complete word, thereby saving the time spent in reading.",
+    Category: "Software Engineering",
+    Url: "https://jetreader.vercel.app",
+  },
+  {
     Title: "Distributed Task Scheduler (CI/CD Pipeline Manager)",
     ProjectDescription: `This is a distributed task scheduler that assigns tasks to worker nodes based on their load and availability, ensuring fault tolerance and efficient task execution in a distributed environment. The work on this project is yet to start. (Individual Project, Tech Stack: Python, Jenkins, Redis/RabbitMQ, Docker, Kubernetes, Prometheus, ELK Stack)`,
     Category: "Software Engineering",
@@ -47,18 +65,7 @@ const Projects = () => {
 
   },
 
-  {
-    Title: "Vocabulum",
-    ProjectDescription: `This is an all-languages-to-all-languages dictionary that takes as input the search query along with the source and target language and displays the query and its meaning in the source language, English, and target language. It uses external APIs for translation and meaning search. It also employs an LRU cache and Elastic Search DB for faster retrieval and reduction of latency and API calls. This project is still in progress.
-(Independent Project, Tech Stack: Java, Spring, Spring Boot, React, JavaScript, Twinword Dictionary API,
-Google Translate API, LRU Cache, Elastic Search DB )`,
-    Category: "Software Engineering",
-
-    ScreenshotCollection: [
-      { Url: Vocabulum }
-
-    ]
-  },
+  
   {
     Title: "AI model to detect Cardio Vascular Diseases",
     ProjectDescription: `The work on this project is yet to start, the goal is to train a model to detect several Cardio Vascular Diseases based on medical images from readily available datasets. `,
@@ -97,15 +104,7 @@ Google Translate API, LRU Cache, Elastic Search DB )`,
       { Url: MapApp }
     ]
   },
-  {
-    Title: "PaceUpReading",
-    ProjectDescription: "This is an app that allows readers to read books at customized reading speeds. It accepts as input a pdf file/ epub/ kindle/mobi file, which is a book the user wants to read, this file is parsed and the content from the file is fetched sentence by sentence or paragraph by paragraph. This content is then displayed on the screen in the form of a stream of words that goes through the screen from right to left at a rate of specific words per minute as chosen by the user. To further aid the process of speed reading, the first few letters of each word are displayed in bold, so that the user can guess what the word is without reading the complete word, thereby saving the time spent in reading. This app is still in progress and would also provide the notetaking and highlighting features along with features for increasing the font size.",
-    Category: "Software Engineering",
-
-    ScreenshotCollection: [
-      { Url: SpeedReadingScreenshot }
-    ]
-  },
+  
   {
     Title: "Google Maps Clone",
     ProjectDescription: "Built a simple clone of the Google Maps Web App using readily available APIs",
@@ -119,7 +118,7 @@ Google Translate API, LRU Cache, Elastic Search DB )`,
     Title: "My Blog",
     ProjectDescription: "Coded a blog site and deployed it on Vercel. This is my blog where I usually write articles based on Computer Science and Technology. (Independent Project, Tech Stack: GraphQL, NextJS, Tailwind CSS)",
     Category: "Software Engineering",
-    Url: "https://www.codedreamer.pro",
+    Url: "https://www.designmesh.vercel.app",
     ScreenshotCollection: [
       { Url: CodeDreamer }
 
