@@ -102,7 +102,7 @@ const Navbar = () => {
                     <SocialIcon href="https://codepen.io/Mugdha_Behere" title="View my projects on CodePen" imgSrc={CodepenIcon} altText="Codepen" />
                     <SocialIcon href="https://www.github.com/MugdhaBehere" title="Explore my repositories on GitHub" imgSrc={GithubIcon} altText="Github" />
                     <SocialIcon href="https://www.linkedin.com/in/mugdhabehere" title="Connect with me on LinkedIn" imgSrc={LinkedinIcon} altText="Linkedin" />
-                    <SocialIcon href="https://www.codedreamer.pro" title="Read my blog posts" imgSrc={BlogIcon} altText="Blog" />
+                    <SocialIcon href="https://designmesh.vercel.app" title="Read my blog posts" imgSrc={BlogIcon} altText="Blog" />
                     <SocialIcon href="https://leetcode.com/MugdhaBehere/" title="Solve coding problems with me on LeetCode" imgSrc={LeetCodeIcon} altText="LeetCode" />
                     <SocialIcon href="https://www.scaler.com/academy/profile/3ab7c77cad69/" title="View my Scaler Profile" imgSrc={ScalerIcon} altText="Scaler" />
                 </div>
