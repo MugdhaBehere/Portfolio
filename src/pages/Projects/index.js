@@ -119,10 +119,7 @@ Google Translate API, LRU Cache, Elastic Search DB )`,
     ProjectDescription: "Coded a blog site and deployed it on Vercel. This is my blog where I usually write articles based on Computer Science and Technology. (Independent Project, Tech Stack: GraphQL, NextJS, Tailwind CSS)",
     Category: "Software Engineering",
     Url: "https://www.designmesh.vercel.app",
-    ScreenshotCollection: [
-      { Url: CodeDreamer }
-
-    ]
+    
   },
 
 

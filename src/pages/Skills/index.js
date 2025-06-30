@@ -9,23 +9,26 @@ import '../../pages/custom-slider.css';
 const Skills = () => {
   const skillsItems = [
     { Name: "Low-level Design", Category: "Software Engineering" },
+    { Name: "High-Level Design/System Design", Category: "Software Engineering" },
+    { Name: "Data Structures and Algorithms", Category: "Software Engineering" },
     { Name: "Natural Language Processing ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing " },
     { Name: "Deep Learning ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing" },
     { Name: "Artificial Intelligence ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing" },
-    { Name: "React", Category: "Software Engineering" },
-    { Name: "CSS", Category: "Software Engineering" },
-    { Name: "HTML", Category: "Software Engineering" },
-    { Name: "HTTPS", Category: "Software Engineering" },
+    { Name: "React", Category: "" },
     { Name: "NoSQL", Category: "Software Engineering" },
-    { Name: "GraphQL", Category: "Software Engineering" },
     { Name: "REST APIs", Category: "Software Engineering" },
     { Name: "SQL", Category: "Software Engineering" },
     { Name: "GitHub", Category: "Software Engineering" },
-    { Name: "JavaScript", Category: "Software Engineering" },
     { Name: "Go Programming Language", Category: "Software Engineering" },
     { Name: "Git", Category: "Software Engineering" },
-    { Name: "Data Structures and Algorithms", Category: "Software Engineering" },
-    { Name: "High-Level Design/System Design", Category: "Software Engineering" },
+    { Name: "Spring Boot", Category: "Software Engineering" },
+    { Name: "FastAPI", Category: "Software Engineering" },
+    { Name: "Gin", Category: "Software Engineering" },
+    { Name: "Java2 Enterprise Edition", Category: "Software Engineering" },
+    { Name: "Maven", Category: "Software Engineering" },
+    { Name: "Hibernate", Category: "Software Engineering" },
+    { Name: "JPA", Category: "Software Engineering" },
+
   ];
 
   const settings = {
