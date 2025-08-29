@@ -14,21 +14,16 @@ const Skills = () => {
     { Name: "Natural Language Processing ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing " },
     { Name: "Deep Learning ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing" },
     { Name: "Artificial Intelligence ", Category: "Artificial Intelligence or Deep Learning or Natural Language Processing" },
-    { Name: "React", Category: "" },
+    
     { Name: "NoSQL", Category: "Software Engineering" },
     { Name: "REST APIs", Category: "Software Engineering" },
     { Name: "SQL", Category: "Software Engineering" },
     { Name: "GitHub", Category: "Software Engineering" },
-    { Name: "Go Programming Language", Category: "Software Engineering" },
+    { Name: "Go (Golang)", Category: "Software Engineering" },
     { Name: "Git", Category: "Software Engineering" },
-    { Name: "Spring Boot", Category: "Software Engineering" },
+    { Name: "Python", Category: "Software Engineering"},
     { Name: "FastAPI", Category: "Software Engineering" },
     { Name: "Gin", Category: "Software Engineering" },
-    { Name: "Java2 Enterprise Edition", Category: "Software Engineering" },
-    { Name: "Maven", Category: "Software Engineering" },
-    { Name: "Hibernate", Category: "Software Engineering" },
-    { Name: "JPA", Category: "Software Engineering" },
-
   ];
 
   const settings = {
@@ -46,7 +41,7 @@ const Skills = () => {
           {skillsItems.map((skill, index) => (
             <div key={index} >
               <h1> {skill.Name}</h1>
-              <h6>Category of this Skill: {skill.Category}</h6>
+              
             </div>
           ))}
         </Slider>

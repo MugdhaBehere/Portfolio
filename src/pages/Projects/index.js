@@ -10,7 +10,14 @@ import Layout from '../../components/Layout/Layout.js';
 import '../../pages/custom-slider.css';
 
 const Projects = () => {
-  const projectsItems = [{
+  const projectsItems = [
+    {
+      Title: "NetSimulator",
+      ProjectDescription: `This is an interactive Network Simulator for visualizing graphs, running pathfinding algorithms, and analyzing routing efficiency with real-time animations and metrics. It allows users to create and manipulate nodes and edges, assign weights, switch between directed/undirected graphs, and run classical graph algorithms such as Dijkstra, BFS, Bellman-Ford, A*, and Floyd–Warshall. The application was designed to provide an intuitive interface for experimenting with network routing, pathfinding, and graph clustering concepts. (Independent Project. Tech Stack : React.js, Echarts(graph visualization), Tailwind CSS, FastAPI, Python, Graphs). Impact and Applications : Educational Tool for students to learn graph algorithms interactively, Useful for network engineers and system designers to simulate routing scenarios, Can be extended into research tools for distributed systems and network optimization.`,
+      Category: "Software Engineering",
+      Url: "https://netsimulator.vercel.app",
+    },
+    {
     Title: "Cash Craft",
     ProjectDescription: `This is a peer-to-peer fund transfer app that allows users to transfer funds to self and other accounts and monitor their transaction history and dynamically updated account balance. (Independent Project, Tech Stack: Go, Gin, HTML, CSS, JavaScript, MySQL Database )`,
     Category: "Software Engineering",

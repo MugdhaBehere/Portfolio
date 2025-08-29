@@ -12,7 +12,7 @@ import SingingCertificate from '../../images/MugdhaBehere_HV101Certificate.png';
 const hobbiesData = [
   {
     Name: "Reading",
-    DescriptionPart1: `I have heard from many people that the habit of Reading is very essential in today's world. I also believe in these two quotes: "Leaders are Readers." and "Books are the best friends of human beings. Books never complain and books never demand, yet serve as our best friends to accompany. Books are indeed our best and true friends by all means." I have recently started to learn several speed reading techniques, to be able to read as many books as I can. One of my forthcoming projects: Jet Reader, the idea for this project came out of my love for reading.I still don't read very regularly, but, I have enjoyed reading whenever I have found some time for it from my daily schedule. I read books belonging to all categories, but I mostly read informative and self-help books, and also story books and novels or autobiographies sometimes. Following are some books, I have learned from, read (either read fully or partially) and enjoyed reading:`,
+    DescriptionPart1: `I have heard from many people that the habit of Reading is very essential in today's world. I also believe in these two quotes: "Leaders are Readers." and "Books are the best friends of human beings. Books never complain and books never demand, yet serve as our best friends to accompany. Books are indeed our best and true friends by all means." I have recently started to learn several speed reading techniques, to be able to read as many books as I can. One of my projects: Jet Reader, the idea for this project came out of my love for reading.I still don't read very regularly, but, I have enjoyed reading whenever I have found some time for it from my daily schedule. I read books belonging to all categories, but I mostly read informative and self-help books, and also story books and novels or autobiographies sometimes. Following are some books, I have learned from, read (either read fully or partially) and enjoyed reading:`,
   },
   {
     Name: "Reading (continued)",
@@ -22,8 +22,9 @@ const hobbiesData = [
       "Limitless by Jim Kwik.",
       "Science of Mind Management by Swami Mukundananda.",
       "Seven Habits of Highly Effective People by Stephen Covey.",
-      "Hyperfocus by Chris Bailey.",
-      "Deep Work by Cal Newport."
+      "Atomic Habits by James Clear.",
+      "Peak by Anders Ericsson and Robert Pool.",
+      "Ultralearning by Scott Young",
     ],
   },
   {
@@ -34,7 +35,7 @@ const hobbiesData = [
       "Range by David Epstein.",
       "This is Your Brain on Music by Daniel Levitin.",
       "Mindset by Carol Dweck.",
-      "Atomic Habits by James Clear.",
+      "Mastery by Robert Greene",
       "Getting Things Done by David Allen."
     ],
 
