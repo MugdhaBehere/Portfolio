@@ -24,7 +24,7 @@ const hobbiesData = [
       "Seven Habits of Highly Effective People by Stephen Covey.",
       "Atomic Habits by James Clear.",
       "Peak by Anders Ericsson and Robert Pool.",
-      "Ultralearning by Scott Young",
+      "Ultralearning by Scott Young.",
     ],
   },
   {
@@ -35,7 +35,7 @@ const hobbiesData = [
       "Range by David Epstein.",
       "This is Your Brain on Music by Daniel Levitin.",
       "Mindset by Carol Dweck.",
-      "Mastery by Robert Greene",
+      "Mastery by Robert Greene.",
       "Getting Things Done by David Allen."
     ],
 
